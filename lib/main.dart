@@ -14,7 +14,7 @@ void main() async{
   bool? isDark = CashHelper.getData(key: 'isDark');
   runApp( MyApp(isDark:isDark));
 }
-
+//non
 class MyApp extends StatelessWidget {
   const MyApp({Key? key, required this.isDark}) : super(key: key);
  final bool? isDark;
